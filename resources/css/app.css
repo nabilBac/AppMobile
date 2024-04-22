@@ -1,0 +1,73 @@
+/* Styles pour le formulaire d'inscription */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles pour la navigation (menu) */
+.navbar {
+    background-color: #007BFF;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #0056b3;
+}
+
+/* Menu hamburger pour les écrans plus petits */
+@media screen and (max-width: 768px) {
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+/* Styles pour le menu hamburger */
+.icon {
+    display: none;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color: #0056b3;
+}
